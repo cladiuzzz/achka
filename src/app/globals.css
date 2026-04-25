@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  --font-playfair: var(--font-playfair);
+  --font-inter: var(--font-inter);
   /* Colores del Brandbook */
   --color-brand-terracotta: #884535;
   --color-brand-olive: #656D4A;
@@ -17,4 +19,9 @@
 body {
   background-color: var(--color-brand-linen);
   color: var(--color-brand-terracotta);
+  font-family: var(--font-inter), sans-serif; /* ESTO ASEGURA QUE SE USE */
+}
+
+h1, h2, h3, .font-playfair {
+  font-family: var(--font-playfair), serif;
 }
