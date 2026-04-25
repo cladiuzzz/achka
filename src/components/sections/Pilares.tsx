@@ -7,21 +7,21 @@ const pilares = [
   {
     titulo: "Acompañamiento",
     descripcion: "Hojas que crecen juntas, sosteniéndose en el proceso.",
-    imagen: "/icons/acompanamiento.png",
+    imagen: "/icons/PNG/acompanamiento.png",
     posicion: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2", // Arriba
     delay: 0.1
   },
   {
     titulo: "Conciencia",
     descripcion: "Una mirada que ilumina: presencia, claridad y despertar.",
-    imagen: "/icons/conciencia.png",
+    imagen: "/icons/PNG/conciencia.png",
     posicion: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2 text-left", // Derecha
     delay: 0.2
   },
   {
     titulo: "Transformación",
     descripcion: "Del capullo a la flor: un proceso de cambio y evolución natural.",
-    imagen: "/icons/transformacion.png",
+    imagen: "/icons/PNG/transformacion.png",
     posicion: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2", // Abajo
     delay: 0.3
   },
