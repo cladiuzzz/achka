@@ -28,7 +28,7 @@ const pilares = [
   {
     titulo: "Equilibrio",
     descripcion: "Pilares que se ordenan y encuentran su centro en armonía.",
-    imagen: "/icons/equilibrio.png",
+    imagen: "/icons/PNG/equilibrio.png",
     posicion: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 text-right", // Izquierda
     delay: 0.4
   }
