@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center bg-brand-linen pt-20">
       {/* Pattern de fondo sutil */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
-        <Image src="/patterns/patterns-01.jpg" alt="" fill className="object-cover" priority />
+        <Image src="/patterns/pattern-01.jpg" alt="" fill className="object-cover" priority />
       </div>
 
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center z-10">
