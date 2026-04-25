@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colores del Brandbook */
+  --color-brand-terracotta: #884535;
+  --color-brand-olive: #656D4A;
+  --color-brand-sand: #EFDAC7;
+  --color-brand-sage: #C2C8A3;
+  --color-brand-linen: #FFF8EF;
+
+  /* Tipografías */
+  --font-playfair: var(--font-playfair-display);
+  --font-inter: var(--font-inter);
+}
+
+/* Fondo base para toda la web usando el color Linen del manual */
+body {
+  background-color: var(--color-brand-linen);
+  color: var(--color-brand-terracotta);
+}
