@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 
 // Configuración de la fuente de Títulos
 const playfair = localFont({
@@ -25,16 +26,13 @@ const inter = localFont({
   variable: "--font-inter",
 });
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
       <body className={`${playfair.variable} ${inter.variable} antialiased font-inter`}>
         <Navbar />
         {children}
+        <Footer /> {/* NUEVO: Footer al final */}
       </body>
     </html>
   );
